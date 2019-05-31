@@ -302,7 +302,9 @@ footer p {
 /* My code changes starts here */
 
 .wrapper {
-	padding: 50px;
+	max-width: 100%;
+	width: 1000px;
+	margin: auto;
 }
 
 .main-content {
@@ -319,9 +321,11 @@ footer p {
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	margin: 50px 50px 1px 10px;
+	margin: auto;
+	 /* margin: 50px 50px 1px 10px;  */
 	padding: 0px 0px 30px 0px; 
 	border-bottom: 1px solid gray;
+	width: 90%;
 	
 }
 
@@ -335,9 +339,6 @@ footer p {
 }
 
 
-.digital-design button {
-	padding: 10px;
-} 
 
 .bottom-page-sec {
   display: flex;
@@ -430,32 +431,35 @@ footer p {
   margin: 15px 15px;
 
 }
-.digital-design-item button {
+.main-content button  {
 
-  text-decoration: none;
+  /* text-decoration: none;
   background-color: gray;
   color: black;
   border: 1px gray; /* Green */
-  padding: 10px;
+
+  margin: 0px 10px 10px 10px;
+
+  /* padding: 10px; */ 
 
 }
 
 .main-content h2 {
 
-  letter-spacing: 1px;
-  margin-bottom: 15px;
-  /* border: solid 1px red; */
-  line-height: 1.16;
-  font-family: "Anton", sans-serif;
-  font-size: 20px;
-
+	font-size: 20px;
+	font-family: "Bangers", cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	width: 80%;
 }
+
 .services-header-img {
 
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: -40px;
+  margin-top: -40px;
+  margin-bottom: 10px;
   width: 100%;
   vertical-align: top;
 
